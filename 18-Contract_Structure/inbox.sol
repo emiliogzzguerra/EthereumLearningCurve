@@ -21,9 +21,15 @@ contract Inbox { // Contract Definition (VERY SIMILAR TO A CLASS)
     /* Function type declarations
     * public - Anyone can call this function! 
     * private - Only our contract can call this function.
-    * view - Returns data and does not modify the contract's data
-    * constant - Returns data and does not modify the contract's data
+    * view - Returns data and does not modify the contract's data {uses returns}
+    * constant - Returns data and does not modify the contract's data {uses returns}
     * pure - Function will not modify or even read the contract's data
     * payable - When someone calls this function they might send ether along
     */   
 }
+
+/* Top knowledge
+* When you create a public function like "string public message;"
+* Solidity creates automatically a get function with the exact same name
+* as the variable you just created
+*/   
