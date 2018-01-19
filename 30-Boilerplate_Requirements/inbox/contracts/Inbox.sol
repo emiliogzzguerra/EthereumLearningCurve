@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17; // Solidity compiler checks the version
+pragma solidity ^0.4.16; // Solidity compiler checks the version
 
 contract Inbox { // Contract Definition (VERY SIMILAR TO A CLASS)
     string public message; // Storage variable of the contract, public specifies who can access this variable
