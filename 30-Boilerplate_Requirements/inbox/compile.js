@@ -4,7 +4,7 @@
 
 const path = require('path');
 const fs = require('fs');
-const solc = require('solc'); // Solidity compiler
+const solc = require('solc'); //  Solidity compiler
 
 const inboxPath = path.resolve(__dirname,'contracts','Inbox.sol');
 const source = fs.readFileSync(inboxPath, 'utf8');
